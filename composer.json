@@ -1,0 +1,18 @@
+{
+    "name": "gotterdemarung/db-util",
+    "description": "Utility classes for database maintenance",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gotterdemarung",
+            "email": "gotterdemarung@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-0": { "Gotterdemarung\\DbUtil\\": "src" }
+    }
+}
